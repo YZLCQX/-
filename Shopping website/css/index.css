@@ -1,0 +1,137 @@
+p,ul,body,dl,dt,dd,h1,table,tr,td,th,h2,li{
+	padding:0;
+	margin:0;
+	border:0;
+	}
+
+body{}
+
+/*导航栏*/
+.header {
+	width: 100%;
+	height: 25px;
+	background-color: #E3E4E5;
+}
+
+/*菜单*/
+
+.header_ul {
+	float: left;
+	list-style: none;
+	margin-left: 65%;
+}
+
+.header_ul_a {text-decoration:none;}
+.header_ul_a:link {color:black;}
+.header_ul_a:visited {color: black;}
+.header_ul_a:hover {color:red;}
+
+
+.header_ul li {
+	margin-left: 10px;
+	float: left;
+	display:inline
+	white-space:nowrap;
+}
+
+.header_ul li:hover {
+	color: red;
+}
+
+.frame{
+	width: 100%;
+	height: 100px;
+	background-color: #D91E1E;
+	background-image:url('../img/b2.jpg');
+}
+
+.Shopping_Home{
+	height: 1000px;
+	width: 100%;
+	background-image:url('../img/b3.jpg');
+}
+
+.Above{
+	width: 1200px;
+	height: 100%;
+	margin-left: 20%;
+	background-color:white;
+}
+
+.Side_n_b{
+	width: 100%;
+	height: 25px;
+	background-color: #FF5200;
+}
+
+.Side_n_b_ul{
+	float: left;
+	list-style: none;
+	margin-left: 250px;
+}
+
+.Side_n_b_ul li{color: #FFFFFF;}
+
+.Side_n_b_ul li{
+	display: inline;//让li横向排列
+	display:block;
+	margin-left: 80px;
+}
+
+.Above a{text-decoration:none;}		//清除链接下划线
+.Above a:link {color:black;}
+.Above a:visited {color: black;}
+.Above a:hover {color:black;}
+
+.Shopping_page{
+	width: 750px;
+	display: inline-block;
+	vertical-align:top
+}
+
+.Shopping_page h5{margin:0;}
+
+.Shopping_page_1{
+	width: 390px;
+	height: 332px;
+	display: inline-block;
+	vertical-align:top
+}
+
+.Shopping_page_1 h5{margin:0;}
+
+.Shopping_page_2{
+	width: 270px;
+	height: 332px;
+	display: inline-block;
+	vertical-align:top
+}
+
+.Shopping_page_2 h5{margin:0;}
+
+.Shopping_page_3{
+	width: 330px;
+	height: 332px;
+	display: inline-block;
+	vertical-align:top
+}
+
+.Shopping_page_3 h5{margin:0;}
+
+.Shopping_page_4{
+	width: 250px;
+	height: 332px;
+	display: inline-block;
+	vertical-align:top
+}
+
+.Shopping_page_4 h5{margin:0;}
+
+.Shopping_page_5{
+	width: 250px;
+	height: 332px;
+	display: inline-block;
+	vertical-align:top
+}
+
+.Shopping_page_5 h5{margin:0;}
