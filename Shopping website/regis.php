@@ -31,6 +31,9 @@
 
 									mysqli_query($dbc_sql, $query);	//将用户信息插入数据库
 
+									$query = "INSERT INTO web_User_personal_info_table(name, Balance,  address) VALUES ('$user_name',' ', ' ');";	//初始化用户个人信息
+									mysqli_query($dbc_sql, $query);	//将用户信息插入数据库
+
 									do{
 										$cookie_id = genaret($user_name);	//生成cookie
 										$query = "SELECT cookie FROM web_cookie_table WHERE cookie = '$cookie_id'";	//查询cookie是否重复

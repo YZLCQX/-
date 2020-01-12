@@ -86,7 +86,7 @@ body{}
 .Shopping_page{
 	width: 750px;
 	display: inline-block;
-	vertical-align:top
+	vertical-align:top;
 }
 
 .Shopping_page h5{margin:0;}
@@ -95,7 +95,7 @@ body{}
 	width: 390px;
 	height: 332px;
 	display: inline-block;
-	vertical-align:top
+	vertical-align:top;
 }
 
 .Shopping_page_1 h5{margin:0;}
@@ -104,7 +104,7 @@ body{}
 	width: 270px;
 	height: 332px;
 	display: inline-block;
-	vertical-align:top
+	vertical-align:top;
 }
 
 .Shopping_page_2 h5{margin:0;}
@@ -113,7 +113,7 @@ body{}
 	width: 330px;
 	height: 332px;
 	display: inline-block;
-	vertical-align:top
+	vertical-align:top;
 }
 
 .Shopping_page_3 h5{margin:0;}
@@ -122,7 +122,7 @@ body{}
 	width: 250px;
 	height: 332px;
 	display: inline-block;
-	vertical-align:top
+	vertical-align:top;
 }
 
 .Shopping_page_4 h5{margin:0;}
@@ -131,7 +131,7 @@ body{}
 	width: 250px;
 	height: 332px;
 	display: inline-block;
-	vertical-align:top
+	vertical-align:top;
 }
 
 .Shopping_page_5 h5{margin:0;}

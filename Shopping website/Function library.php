@@ -1,11 +1,11 @@
 <?php //2020.1.6 ?>
 <?php
-	//存放函数
-	//生成cookie		2020.1.3
-	function genaret($user)
-		{
-			return sha1($user.microtime());	//用户名跟毫秒时间戳哈希
-		}
+//存放函数
+//生成cookie		2020.1.3
+function genaret($user)
+	{
+		return sha1($user.microtime());	//用户名跟毫秒时间戳哈希
+	}
 ?>
 
 <?php

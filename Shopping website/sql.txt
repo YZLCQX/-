@@ -1,0 +1,2 @@
+INSERT INTO web_product_info_table(name, price, weight,  Rank, img) 
+VALUES ("iphone 11", 5499, 0.5,  1,  "img/2.jpg ");

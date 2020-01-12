@@ -1,0 +1,75 @@
+web_user_info_data
+web_user_info_table
+id 主键 自增 
+name  not null 
+password not null 
+Creation_time not null
+user_imag 
+
+web_cookie_table
+id 主键 自增 
+cookie 值
+time 创建时间
+
+
+CREATE TABLE web_user_info_table
+(
+id int AUTO_INCREMENT primary key ,
+name char(16) NOT NULL,
+password char(40) NOT NULL,
+Creation_time char(24) NOT NULL,
+user_imag  char(128)
+);
+
+
+CREATE TABLE web_cookie_table
+(
+id int AUTO_INCREMENT primary key,
+cookie char(40) NOT NULL,
+time int NOT NULL
+);
+
+
+ALTER TABLE web_cookie_table ADD user_name char(16) NOT NULL AFTER cookie;
+
+
+
+web_Product_info_table
+商品信息
+id 
+name not null 
+price not null 	//价格
+weight not null 	//重量
+Rank not null	//排名
+img	//图片
+
+CREATE TABLE web_product_info_table
+(
+id int  AUTO_INCREMENT primary key,
+name char(40) NOT NULL,
+price int NOT NULL,
+weight int NOT NULL,
+Rank int NOT NULL
+);
+
+ALTER TABLE web_product_info_table ADD img char(16) NOT NULL AFTER rank;
+
+
+web_User_personal_info_table
+用户个人信息
+id
+Balance int NOT NULL 	//余额
+address char(40) NOT NULL 	//地址
+
+CREATE TABLE web_User_personal_info_table
+(
+Balance int NOT NULL,
+address char(40) NOT NULL
+);
+
+
+
+
+
+
+
